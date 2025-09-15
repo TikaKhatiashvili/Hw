@@ -73,6 +73,7 @@
             //    percent = 5;
 
             //}
+
             //double discount = (price * percent) / 100;
             //double finalPrice = price - discount;
             //Console.WriteLine($"Your Final Product Price is {finalPrice}");
