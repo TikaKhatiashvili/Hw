@@ -1,0 +1,46 @@
+[
+  {
+    "Make": "Ferrari",
+    "Model": "Testarossa",
+    "Cylinders": 12,
+    "Engine_Liters": 4.9,
+    "Drive": "Rear-Wheel Drive",
+    "Transmission": "Manual 5-spd",
+    "City_MPG": 9,
+    "Highway_MPG": 11,
+    "Combined_MPG": 14
+  },
+  {
+    "Make": "Dodge",
+    "Model": "Charger",
+    "Cylinders": 4,
+    "Engine_Liters": 2.2,
+    "Drive": "Front-Wheel Drive",
+    "Transmission": "Manual 5-spd",
+    "City_MPG": 23,
+    "Highway_MPG": 27,
+    "Combined_MPG": 33
+  },
+  {
+    "Make": "Dodge",
+    "Model": "B150/B250 Wagon 2WD",
+    "Cylinders": 8,
+    "Engine_Liters": 5.2,
+    "Drive": "Rear-Wheel Drive",
+    "Transmission": "Automatic 3-spd",
+    "City_MPG": 10,
+    "Highway_MPG": 11,
+    "Combined_MPG": 12
+  },
+  {
+    "Make": "Subaru",
+    "Model": "Legacy AWD Turbo",
+    "Cylinders": 4,
+    "Engine_Liters": 2.2,
+    "Drive": "4-Wheel or All-Wheel Drive",
+    "Transmission": "Manual 5-spd",
+    "City_MPG": 17,
+    "Highway_MPG": 19,
+    "Combined_MPG": 23
+  }
+]

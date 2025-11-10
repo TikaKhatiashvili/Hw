@@ -25,6 +25,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwTen", "HwTen\HwTen.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwEleven", "HwEleven\HwEleven.csproj", "{0805FBB1-D5B5-4C9C-B6F1-6E0B61100EF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HwTwelve", "HwTwelve\HwTwelve.csproj", "{C663F14F-290D-4070-8C6D-38328A74AFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBank.Data", "TinyBank.Data\TinyBank.Data.csproj", "{AE770854-DFBE-4E76-9743-A9EFE274CD14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TinyBank", "TinyBank", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBank.Repository", "TinyBank.Repository\TinyBank.Repository.csproj", "{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBank.Service", "TinyBank.Service\TinyBank.Service.csproj", "{3795586A-C930-4EE9-AFBD-249229EB50B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyBank.Console", "TinyBank.Console\TinyBank.Console.csproj", "{7F0A18A9-3485-4AA0-9376-C5C3A76B3425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,9 +87,35 @@ Global
 		{0805FBB1-D5B5-4C9C-B6F1-6E0B61100EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0805FBB1-D5B5-4C9C-B6F1-6E0B61100EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0805FBB1-D5B5-4C9C-B6F1-6E0B61100EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C663F14F-290D-4070-8C6D-38328A74AFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C663F14F-290D-4070-8C6D-38328A74AFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C663F14F-290D-4070-8C6D-38328A74AFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C663F14F-290D-4070-8C6D-38328A74AFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE770854-DFBE-4E76-9743-A9EFE274CD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE770854-DFBE-4E76-9743-A9EFE274CD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE770854-DFBE-4E76-9743-A9EFE274CD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE770854-DFBE-4E76-9743-A9EFE274CD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3795586A-C930-4EE9-AFBD-249229EB50B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3795586A-C930-4EE9-AFBD-249229EB50B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3795586A-C930-4EE9-AFBD-249229EB50B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3795586A-C930-4EE9-AFBD-249229EB50B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0A18A9-3485-4AA0-9376-C5C3A76B3425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0A18A9-3485-4AA0-9376-C5C3A76B3425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0A18A9-3485-4AA0-9376-C5C3A76B3425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0A18A9-3485-4AA0-9376-C5C3A76B3425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE770854-DFBE-4E76-9743-A9EFE274CD14} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{2AA6B7A7-8FB7-436D-994A-6D4D91AA6627} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3795586A-C930-4EE9-AFBD-249229EB50B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7F0A18A9-3485-4AA0-9376-C5C3A76B3425} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C2CEA992-854D-431E-A1A0-D7D3E480780A}
