@@ -9,9 +9,9 @@ namespace TinyBank.Repository.Interfaces;
 
 public interface IAccountRepository
 {
-    List<Account> GetAccounts();
+    List<Account> GetAccounts(int custId);
     Account GetSingleAccount(int id);
-    int AddAccount(Account customer);
-    int UpdateAccount(Account customer);
+    int AddAccount(Account account);
+    int UpdateAccount(Account account);
     int DeleteAccount(int id);
 }
